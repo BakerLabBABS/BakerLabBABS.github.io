@@ -18,6 +18,15 @@
 .alumni-list { columns: 2; column-gap: 3rem; }
 .alumni-list p { break-inside: avoid; margin: .6rem 0; }
 .alumni-list span { font-size: .92em; }
+/* The current header image is bright, so use an ink-coloured title for contrast. */
+#site-head { color: #183c46; }
+#site-head .blog-title, #site-head .blog-description { color: #183c46; text-shadow: 0 1px 2px rgba(255,255,255,.65); }
+#site-head .site-menu { color: #fff; background: #285b68; }
+#site-head .site-menu:hover { background: #183c46; }
+/* Keep the theme's alternating rhythm without the original saturated magenta panel. */
+.post-holder.odd { background: #e7eff0; color: #263b40; }
+.post-holder.odd a { color: #1e6070; }
+.project-card { background: rgba(255,255,255,.86); }
 @media (max-width: 700px) {
   .member-grid, .project-grid { grid-template-columns: 1fr; }
   .member-card { gap: .75rem; }
