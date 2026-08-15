@@ -19,7 +19,7 @@
 .alumni-list p { break-inside: avoid; margin: .6rem 0; }
 .alumni-list span { font-size: .92em; }
 /* Place the light title in the darker, less busy upper part of the header image. */
-#site-head { color: #fff; }
+#site-head { color: #fff; background-position: center bottom; }
 #site-head-content { transform: translateY(-24%); }
 #site-head .blog-title, #site-head .blog-description { color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,.65); }
 #site-head .site-menu { color: #fff; background: #285b68; }
